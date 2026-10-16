@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FullPage support</title>
+<meta name="description" content="Help for FullPage, the Safari extension that captures a whole webpage as one image.">
+<style>
+:root{color-scheme:light dark}
+body{font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:40rem;margin:0 auto;padding:1.5rem 1rem 3rem}
+h1{font-size:1.9rem;line-height:1.2;margin:0 0 .25rem}
+h2{font-size:1.3rem;margin:2.2rem 0 .5rem}
+h3{font-size:1.05rem;margin:1.4rem 0 .3rem}
+p,li{margin:.5rem 0}
+nav{margin:0 0 1.5rem;font-size:.95rem}
+nav a{margin-right:1rem}
+.lead{font-size:1.1rem}
+.meta{color:#666;font-size:.9rem}
+footer{margin-top:3rem}
+a{color:#0a64d6}
+@media (prefers-color-scheme:dark){.meta{color:#aaa}a{color:#6cb0ff}}
+</style>
+</head>
+<body>
+<nav><a href="index.html">Support</a><a href="privacy.html">Privacy policy</a></nav>
+<h1>FullPage support</h1>
+<p class="meta">App Store name: Full Page Screenshot: Safari</p>
+
+<p class="lead">FullPage adds a button to Safari. Press it and the page scrolls by itself while each screen is captured and stitched into one image. You can also capture just the visible area, or on Mac a region you drag out. Captures go into a library in the app, where you can mark them up, copy, share, or save them as PNG, JPEG or a searchable PDF. One purchase covers Mac, iPhone and iPad. There is no account.</p>
+
+<h2>Turn on the Safari extension</h2>
+<h3>Mac (macOS 15 or later)</h3>
+<ol>
+<li>Open FullPage. The setup sheet opens on first launch.</li>
+<li>Click the button that opens Safari's extension settings, and tick FullPage. You can also open Safari, then Safari &gt; Settings &gt; Extensions.</li>
+<li>When Safari asks, allow FullPage on websites.</li>
+<li>Open a web page and click the FullPage button in the Safari toolbar. Shortcuts: Option-Shift-P for the whole page, Option-Shift-V for the visible area, Option-Shift-S for a region. You can change them in Safari's settings.</li>
+</ol>
+<h3>iPhone and iPad (iOS 18 or later)</h3>
+<ol>
+<li>Open Settings, then Apps, Safari, Extensions, and choose FullPage. The setup screen in the app takes you there.</li>
+<li>Turn FullPage on and set it to Allow.</li>
+<li>Open a web page in Safari. Open the page menu (the aA button on iOS 18 to 25, the three-line page menu on iOS 26) and tap FullPage.</li>
+<li>When the capture is done, a banner in Safari opens it in the app.</li>
+</ol>
+
+<h2>Questions</h2>
+
+<h3>What is the difference between full page, visible area and region?</h3>
+<p>Full page scrolls the whole page and stitches it into one image. Visible area captures only what is on screen now. Region lets you drag out a rectangle; it is available on Mac only. Choose which one the toolbar button uses in the app's Settings.</p>
+
+<h3>Where are my captures, and how does iCloud sync work?</h3>
+<p>Captures are stored on your device, in the FullPage library. If iCloud Drive is on, the library also syncs through your own iCloud Drive to your Mac, iPhone and iPad signed in to the same Apple Account. The developer runs no server and cannot see your captures. If iCloud Drive is off, captures stay on that device. On Mac, use Reveal in Finder to find a file. On iPhone and iPad, save to Photos or Files, or share.</p>
+
+<h3>Why is my capture cut off?</h3>
+<p>Captures stop at 30 screens. A longer page, such as an endless feed, is saved up to that point and carries a "Cut off" badge. Very tall pages are split into parts of up to 16,384 pixels each, so nothing is shrunk.</p>
+<p>The other case is a page whose main content sits in an embedded frame from another website (a cross-origin frame). Safari does not let the extension scroll such a frame, so only the visible part is captured, and the capture says so. Frames from the same site are captured whole.</p>
+<p>Leave the page alone until the capture finishes: it scrolls by itself while it works. FullPage needs a normal web page; it cannot capture a blank tab or the Start Page.</p>
+
+<h3>How do I get a searchable PDF?</h3>
+<p>Open a capture and choose Save as PDF. Full-page captures of regular pages get selectable, searchable text and working links. Other captures are saved as an image-only PDF.</p>
+
+<h3>How does markup work?</h3>
+<p>Open a capture and choose Markup. Tools: arrows, boxes, text, highlighter, numbered steps, stamps, spotlight, pixelate, blur and redact, with unlimited undo and redo. Your original is never changed; the edit is saved as a new copy, and you can edit it again later. Pixelate and blur hide detail but can sometimes be reversed. Use Redact for anything sensitive: it removes the covered pixels from the saved copy.</p>
+
+<h3>What are the notifications?</h3>
+<p>After each capture FullPage shows a local notification on your device. Nothing is sent over the internet for it. Switch it off with "Notify after each capture" in the app's Settings, or decline the permission in system settings.</p>
+
+<h3>How do I turn analytics off?</h3>
+<p>Open the app's Settings (on iPhone and iPad, the settings sheet in the app) and turn off "Share anonymous usage statistics". "What's sent" in the same place lists exactly what is collected. Details are in the <a href="privacy.html">privacy policy</a>.</p>
+
+<h2>Contact</h2>
+<!-- OWNER: replace yan.karavai@gmail.com with a real, monitored address before hosting. This page's URL is also the Support URL required in App Store Connect. -->
+<p>Email <a href="mailto:yan.karavai@gmail.com">yan.karavai@gmail.com</a>. Please say which device and OS version you use, and what kind of page you were capturing. Do not send us pages with private information.</p>
+
+<footer class="meta">&copy; 2026 New Life Fed HR Solutions LLC &middot; <a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
